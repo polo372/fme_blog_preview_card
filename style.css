@@ -1,14 +1,40 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+@layer reset, typo, style;
+@import 'reset.css';
+@import 'typo.css';
+
+:root{
+    --bg-color: #f4d04e;
+    --card-color: #ffffff;
+    --color1: #111111;
+    --color2: #6B6B6B;   
+    --spacing1: 24px;
+    --spacing2: 12px;
+    --spacing3: 8px;
+    --spacing4: 4px;
 }
 body{
     height: 100vh;
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-@media screen and (max-width: 370px){
+.card{
+    background-color: var(--card-color);
+    height: 501px;
+    width: 327px;
+    border-radius: 15px;
+    box-shadow: 8px 8px #111111;
+    border: 1px solid #111111;
+    padding: 24px;
+}
+.picture{
+    border-radius: 10px;
+    width: 100%;
+}
+
+@media screen and (max-width: 375px){
     body {
-        width: 370px;
-        background-color: burlywood;
+        min-width: 370px;
     }
 }

@@ -1,0 +1,18 @@
+:root{
+    -text1--size: 24px;
+    -text1--lineheight: 150%;
+    -text1--letterspacing: 0px;
+    -text1--fontweight: Extra bold;
+    -text2--size: 164px;
+    -text2--lineheight: 150%;
+    -text2--letterspacing: 0px;
+    -text2--fontweight: Extra bold;
+    -text3--size: 14px;
+    -text3--lineheight: 150%;
+    -text3--letterspacing: 0px;
+    -text3--fontweight: Extra bold;
+    -text3b--size: 14px;
+    -text3b--lineheight: 150%;
+    -text3b--letterspacing: 0px;
+    -text3b--fontweight: Extra bold;
+}
