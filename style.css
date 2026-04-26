@@ -34,6 +34,9 @@ body{
     height: 100%;
     margin-bottom: var(--spacing1)
 }
+section{
+    margin-bottom: var(--spacing2);
+}
 .category{
     background-color: var(--bg-color);
     display: inline-block;
@@ -42,6 +45,10 @@ body{
     margin-bottom: var(--spacing2);
 }
 .publish_date{
+    margin-bottom: var(--spacing2);
+}
+.titre{
+    display: inline-block;
     margin-bottom: var(--spacing2);
 }
 

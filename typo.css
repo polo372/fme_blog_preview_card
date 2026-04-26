@@ -42,3 +42,10 @@
     letter-spacing: var(--text3-letterspacing);
     line-height: var(--text3-lineheight);
 }
+.titre{
+    font-family: Figtree-extrabold;
+    font-weight: var(--text1-fontweight);
+    font-size: var(--text1-size);
+    letter-spacing: var(--text1-letterspacing);
+    line-height: var(--text1-lineheight);
+}
