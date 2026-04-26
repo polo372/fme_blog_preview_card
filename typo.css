@@ -3,7 +3,7 @@
     --text1-lineheight: 150%;
     --text1-letterspacing: 0px;
     --text1-fontweight: 800;
-    --text2-size: 164px;
+    --text2-size: 16px;
     --text2-lineheight: 150%;
     --text2-letterspacing: 0px;
     --text2-fontweight: 800;
@@ -15,6 +15,7 @@
     --text3b-lineheight: 150%;
     --text3b-letterspacing: 0px;
     --text3b-fontweight: 800;
+    --font-color : #6B6B6B; 
 }
 @font-face {
     font-family: Figtree-extrabold;
@@ -48,4 +49,12 @@
     font-size: var(--text1-size);
     letter-spacing: var(--text1-letterspacing);
     line-height: var(--text1-lineheight);
+}
+.description{
+    font-family: Figtree-medium;
+    font-weight: var(--text2-fontweight);
+    font-size: var(--text2-size);
+    letter-spacing: var(--text2-letterspacing);
+    line-height: var(--text2-lineheight);
+    color: var(--font-color);
 }

@@ -5,8 +5,7 @@
 :root{
     --bg-color: #f4d04e;
     --card-color: #ffffff;
-    --color1: #111111;
-    --color2: #6B6B6B;   
+    --color1: #111111;  
     --spacing1: 24px;
     --spacing2: 12px;
     --spacing3: 8px;
@@ -50,6 +49,9 @@ section{
 .titre{
     display: inline-block;
     margin-bottom: var(--spacing2);
+}
+.description{
+
 }
 
 @media (min-width: 375px){
