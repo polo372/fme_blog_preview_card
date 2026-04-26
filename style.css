@@ -39,7 +39,7 @@ section{
 .category{
     background-color: var(--bg-color);
     display: inline-block;
-    padding: var(--spacing3);
+        padding: var(--spacing4) var(--spacing2);
     border-radius: 5px;
     margin-bottom: var(--spacing2);
 }
@@ -63,4 +63,7 @@ footer{
     height: 522px;
     width: 384px;
 }
+    .picture{
+        width: 100%;
+    }
 }
