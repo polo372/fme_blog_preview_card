@@ -39,7 +39,10 @@ body{
     display: inline-block;
     padding: var(--spacing3);
     border-radius: 5px;
-    margin-bottom: var(--spacing3);
+    margin-bottom: var(--spacing2);
+}
+.publish_date{
+    margin-bottom: var(--spacing2);
 }
 
 @media (min-width: 375px){

@@ -35,3 +35,10 @@
     letter-spacing: var(--text3-letterspacing);
     line-height: var(--text3b-lineheight);
 }
+.publish_date{
+    font-family: Figtree-medium;
+    font-weight: var(--text3-fontweight);
+    font-size: var(--text3-size);
+    letter-spacing: var(--text3-letterspacing);
+    line-height: var(--text3-lineheight);
+}
