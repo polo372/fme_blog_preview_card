@@ -29,7 +29,8 @@
     font-weight: 100 1000;
     font-stretch: 25% 151%;
 }
-.category{
+.category, 
+.authorname{
     font-family: Figtree-extrabold;
     font-size: var(--text3b-fontweight);
     font-weight: var(--text3-fontweight);

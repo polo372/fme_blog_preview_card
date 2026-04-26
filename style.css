@@ -34,7 +34,7 @@ body{
     margin-bottom: var(--spacing1)
 }
 section{
-    margin-bottom: var(--spacing2);
+    margin-bottom: var(--spacing1);
 }
 .category{
     background-color: var(--bg-color);
@@ -50,10 +50,14 @@ section{
     display: inline-block;
     margin-bottom: var(--spacing2);
 }
-.description{
-
+footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-
+.portrait{
+    margin-right: var(--spacing2);
+}
 @media (min-width: 375px){
     .card{
     height: 522px;
