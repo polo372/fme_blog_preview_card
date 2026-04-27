@@ -1,0 +1,85 @@
+# Frontend Mentor - Blog preview card solution
+
+This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+  - [AI Collaboration](#ai-collaboration)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- See hover and focus states for all interactive elements on the page
+
+### Screenshot
+
+![desktop_view](assets\images\screenshot\desktop view.png)
+![hover_view](assets\images\screenshot\hover_view.png)
+![mobil_view](assets\images\screenshot\mobil_view.png)
+### Links
+
+- Solution URL: [my solution](https://mypreview-card-challenge.netlify.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- Git command
+
+### What I learned
+
+I learn to use the git command and i force me to use "git add -p" and "git commit -m" a lot of time. I work on a different branch just for merge my job at the finish. I use css variable and layer. It's really fun.
+
+```css
+@layer reset, style, typo;
+@import 'reset.css';
+@import 'typo.css';
+
+```
+```css
+:root{
+    --bg-color: #f4d04e;
+    --card-color: #ffffff;
+    --color1: #111111;  
+    --spacing1: 24px;
+    --spacing2: 12px;
+    --spacing3: 8px;
+    --spacing4: 4px;
+}
+```
+
+### Continued development
+I need to perform in css comprehension
+
+### Useful resources
+
+- [To learn git command](https://gitgame-4f0eb.web.app/) - This game boost my git experience
+- [My css reference](https://grafikart.fr/formations/apprendre-css) - I'm so sorry but I'm a french guy and i need french tutorial to understand css concept
+
+### AI Collaboration
+
+I really try not to use AI to this project but at the end I used it to fix the height of the illustration. I use the AI of my navigator inspector (copilot).
+
+## Author
+
+- Github - [Polo372](https://github.com/polo372)
+- Frontend Mentor - [@polo372](https://www.frontendmentor.io/profile/polo372)
+- Twitter - [@plbd372](https://x.com/plbd372)
+
