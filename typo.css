@@ -32,30 +32,48 @@
 .category, 
 .authorname{
     font-family: Figtree-extrabold;
-    font-size: var(--text3b-fontweight);
-    font-weight: var(--text3-fontweight);
-    letter-spacing: var(--text3-letterspacing);
+    font-weight: var(--text3b-fontweight);
+    letter-spacing: var(--text3b-letterspacing);
     line-height: var(--text3b-lineheight);
+}
+.category{
+    font-size: 12px;
+}
+.authorname{
+    font-size: var(--text3b-size);
 }
 .publish_date{
     font-family: Figtree-medium;
     font-weight: var(--text3-fontweight);
-    font-size: var(--text3-size);
+    font-size: 12px;
     letter-spacing: var(--text3-letterspacing);
     line-height: var(--text3-lineheight);
 }
 .titre{
     font-family: Figtree-extrabold;
     font-weight: var(--text1-fontweight);
-    font-size: var(--text1-size);
+    font-size: 20px;
     letter-spacing: var(--text1-letterspacing);
     line-height: var(--text1-lineheight);
 }
 .description{
     font-family: Figtree-medium;
     font-weight: var(--text2-fontweight);
-    font-size: var(--text2-size);
+    font-size: var(--text3-size);
     letter-spacing: var(--text2-letterspacing);
     line-height: var(--text2-lineheight);
     color: var(--font-color);
+}
+@media (min-width: 375px){
+    .titre{
+        font-size: var(--text1-size);
+    }
+    .description{
+    font-size: var(--text2-size);
+    }
+    .category,
+    .publish_date{
+        font-size: var(--text3b-size);
+    }
+
 }

@@ -30,8 +30,9 @@ body{
 }
 .picture{
     border-radius: 10px;
-    height: 100%;
-    margin-bottom: var(--spacing1)
+    margin-bottom: var(--spacing1);
+    height: 200px;
+    width: 279px;
 }
 section{
     margin-bottom: var(--spacing1);
@@ -39,7 +40,7 @@ section{
 .category{
     background-color: var(--bg-color);
     display: inline-block;
-        padding: var(--spacing4) var(--spacing2);
+    padding: var(--spacing4) var(--spacing2);
     border-radius: 5px;
     margin-bottom: var(--spacing2);
 }
@@ -63,11 +64,13 @@ footer{
     margin-right: var(--spacing2);
 }
 @media (min-width: 375px){
+    
     .card{
     height: 522px;
     width: 384px;
 }
     .picture{
-        width: 100%;
+        width: 336px;
+        height: 200px;
     }
 }
