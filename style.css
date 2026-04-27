@@ -1,7 +1,6 @@
-@layer reset, style, typo;
 @import 'reset.css';
 @import 'typo.css';
-
+@layer reset, style, typo;
 :root{
     --bg-color: #f4d04e;
     --card-color: #ffffff;
@@ -21,7 +20,7 @@ body{
 }
 .card{
     background-color: var(--card-color);
-    height: 501px;
+    min-height: 501px;
     width: 327px;
     border-radius: 15px;
     box-shadow: 8px 8px #111111;
