@@ -33,8 +33,6 @@ figure img {
   height: 100%;
   object-fit: cover;
 }
-
-
 .picture{
     border-radius: 10px;
     margin-bottom: var(--spacing1);
