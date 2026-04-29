@@ -55,7 +55,11 @@ section{
     display: inline-block;
     margin-bottom: var(--spacing2);
 }
-.titre:hover{
+a{
+    color: var(--color1);
+    text-decoration: none;
+}
+a:hover{
         color: var(--bg-color);
         cursor: pointer;
     }
